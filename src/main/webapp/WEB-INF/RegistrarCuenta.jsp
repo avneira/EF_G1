@@ -34,14 +34,14 @@
                                name="correo" required>
                     </div>
                     <div class="mb-3">
-                        <label for="password1" class="form-label">Contraseña</label>
-                        <input type="password" class="form-control border border-secondary" id="password1"
+                        <label for="passw1" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control border border-secondary" id="passw1"
                                name="password1"
                                required>
                     </div>
                     <div class="mb-3">
-                        <label for="password2" class="form-label">Repitir contraseña</label>
-                        <input type="password" class="form-control border border-secondary" id="password2"
+                        <label for="passw2" class="form-label">Repitir contraseña</label>
+                        <input type="password" class="form-control border border-secondary" id="passw2"
                                name="password2"
                                required>
                     </div>
@@ -80,7 +80,6 @@
             (function () {
                 'use strict'
                 var forms = document.querySelectorAll('.needs-validation')
-
                 Array.prototype.slice.call(forms)
                     .forEach(function (form) {
                         form.addEventListener('submit', function (event) {
@@ -88,7 +87,6 @@
                                 event.preventDefault()
                                 event.stopPropagation()
                             }
-
                             form.classList.add('was-validated')
                         }, false)
                     })
