@@ -1,7 +1,9 @@
+package com.example.ef_g1.servlets;
 
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
+
 import java.io.IOException;
 
 @WebServlet(name = "ServletInicioSesion", value = "/ServletInicioSesion")
